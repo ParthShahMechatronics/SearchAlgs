@@ -6,11 +6,11 @@ flow, distance, tabu = [], [], []
 tabuSize = 15 #lower bound 5, upper bound 30
 listSize = 20
 
-with open("d:/Tron/4A/ECE457A/Assignments/Flow.csv") as f:
+with open("Flow.csv") as f:
     for line in f.readlines():
         flow. append([int(s) for s in line[:-1].split(',')])
 
-with open("d:/Tron/4A/ECE457A/Assignments/Distance.csv") as f:
+with open("Distance.csv") as f:
     for line in f.readlines():
         distance. append([int(s) for s in line[:-1].split(',')])
 
